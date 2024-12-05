@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0">
+    <tool name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="2"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4">
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <main name="1 лаба"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="1 лаба">
+    <a name="circuit" val="1 лаба"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(910,340)" to="(910,410)"/>
+    <wire from="(630,340)" to="(630,410)"/>
+    <wire from="(910,630)" to="(910,660)"/>
+    <wire from="(500,780)" to="(500,800)"/>
+    <wire from="(540,620)" to="(540,650)"/>
+    <wire from="(870,790)" to="(870,810)"/>
+    <wire from="(80,290)" to="(120,290)"/>
+    <wire from="(520,750)" to="(630,750)"/>
+    <wire from="(160,290)" to="(200,290)"/>
+    <wire from="(130,650)" to="(130,680)"/>
+    <wire from="(890,760)" to="(1000,760)"/>
+    <wire from="(810,720)" to="(830,720)"/>
+    <wire from="(110,890)" to="(140,890)"/>
+    <wire from="(110,850)" to="(140,850)"/>
+    <wire from="(630,710)" to="(630,750)"/>
+    <wire from="(560,230)" to="(580,230)"/>
+    <wire from="(740,410)" to="(760,410)"/>
+    <wire from="(1000,720)" to="(1000,760)"/>
+    <wire from="(130,610)" to="(130,650)"/>
+    <wire from="(220,700)" to="(220,740)"/>
+    <wire from="(440,710)" to="(460,710)"/>
+    <wire from="(150,660)" to="(170,660)"/>
+    <wire from="(560,190)" to="(630,190)"/>
+    <wire from="(840,190)" to="(910,190)"/>
+    <wire from="(150,740)" to="(220,740)"/>
+    <wire from="(200,270)" to="(270,270)"/>
+    <wire from="(570,890)" to="(580,890)"/>
+    <wire from="(220,740)" to="(220,810)"/>
+    <wire from="(200,200)" to="(200,270)"/>
+    <wire from="(1000,760)" to="(1000,830)"/>
+    <wire from="(200,290)" to="(250,290)"/>
+    <wire from="(630,750)" to="(630,820)"/>
+    <wire from="(500,360)" to="(540,360)"/>
+    <wire from="(830,830)" to="(850,830)"/>
+    <wire from="(210,400)" to="(240,400)"/>
+    <wire from="(910,190)" to="(910,300)"/>
+    <wire from="(740,300)" to="(740,410)"/>
+    <wire from="(480,910)" to="(510,910)"/>
+    <wire from="(480,870)" to="(510,870)"/>
+    <wire from="(780,260)" to="(800,260)"/>
+    <wire from="(630,190)" to="(630,300)"/>
+    <wire from="(290,290)" to="(310,290)"/>
+    <wire from="(460,820)" to="(480,820)"/>
+    <wire from="(630,300)" to="(660,300)"/>
+    <wire from="(150,630)" to="(170,630)"/>
+    <wire from="(910,300)" to="(940,300)"/>
+    <wire from="(560,600)" to="(630,600)"/>
+    <wire from="(930,610)" to="(1000,610)"/>
+    <wire from="(150,590)" to="(220,590)"/>
+    <wire from="(200,290)" to="(200,350)"/>
+    <wire from="(820,240)" to="(870,240)"/>
+    <wire from="(140,270)" to="(200,270)"/>
+    <wire from="(740,190)" to="(800,190)"/>
+    <wire from="(540,360)" to="(540,390)"/>
+    <wire from="(90,760)" to="(130,760)"/>
+    <wire from="(800,410)" to="(910,410)"/>
+    <wire from="(500,250)" to="(540,250)"/>
+    <wire from="(80,260)" to="(80,290)"/>
+    <wire from="(540,320)" to="(540,360)"/>
+    <wire from="(220,700)" to="(250,700)"/>
+    <wire from="(1000,610)" to="(1000,720)"/>
+    <wire from="(870,680)" to="(890,680)"/>
+    <wire from="(830,720)" to="(830,830)"/>
+    <wire from="(820,240)" to="(820,280)"/>
+    <wire from="(560,370)" to="(580,370)"/>
+    <wire from="(740,190)" to="(740,300)"/>
+    <wire from="(630,600)" to="(630,710)"/>
+    <wire from="(460,710)" to="(460,820)"/>
+    <wire from="(780,370)" to="(870,370)"/>
+    <wire from="(500,670)" to="(520,670)"/>
+    <wire from="(630,710)" to="(660,710)"/>
+    <wire from="(640,480)" to="(670,480)"/>
+    <wire from="(640,440)" to="(670,440)"/>
+    <wire from="(220,590)" to="(220,700)"/>
+    <wire from="(1000,720)" to="(1030,720)"/>
+    <wire from="(870,910)" to="(900,910)"/>
+    <wire from="(870,870)" to="(900,870)"/>
+    <wire from="(560,410)" to="(630,410)"/>
+    <wire from="(150,290)" to="(160,290)"/>
+    <wire from="(310,290)" to="(310,340)"/>
+    <wire from="(950,890)" to="(960,890)"/>
+    <wire from="(780,320)" to="(780,370)"/>
+    <wire from="(910,660)" to="(960,660)"/>
+    <wire from="(460,600)" to="(520,600)"/>
+    <wire from="(540,650)" to="(590,650)"/>
+    <wire from="(830,610)" to="(890,610)"/>
+    <wire from="(130,400)" to="(180,400)"/>
+    <wire from="(820,210)" to="(820,240)"/>
+    <wire from="(540,250)" to="(540,280)"/>
+    <wire from="(90,650)" to="(130,650)"/>
+    <wire from="(520,820)" to="(630,820)"/>
+    <wire from="(130,760)" to="(130,790)"/>
+    <wire from="(800,340)" to="(910,340)"/>
+    <wire from="(780,370)" to="(780,390)"/>
+    <wire from="(890,830)" to="(1000,830)"/>
+    <wire from="(540,650)" to="(540,690)"/>
+    <wire from="(540,210)" to="(540,250)"/>
+    <wire from="(500,780)" to="(590,780)"/>
+    <wire from="(630,300)" to="(630,340)"/>
+    <wire from="(830,610)" to="(830,720)"/>
+    <wire from="(560,260)" to="(580,260)"/>
+    <wire from="(910,300)" to="(910,340)"/>
+    <wire from="(910,660)" to="(910,700)"/>
+    <wire from="(720,300)" to="(740,300)"/>
+    <wire from="(720,460)" to="(740,460)"/>
+    <wire from="(460,600)" to="(460,710)"/>
+    <wire from="(130,720)" to="(130,760)"/>
+    <wire from="(870,790)" to="(960,790)"/>
+    <wire from="(150,770)" to="(170,770)"/>
+    <wire from="(560,340)" to="(630,340)"/>
+    <wire from="(500,730)" to="(500,780)"/>
+    <wire from="(200,870)" to="(210,870)"/>
+    <wire from="(150,810)" to="(220,810)"/>
+    <wire from="(870,740)" to="(870,790)"/>
+    <comp lib="0" loc="(870,240)" name="Constant">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="6" loc="(287,303)" name="Text">
+      <a name="text" val="сток"/>
+    </comp>
+    <comp lib="0" loc="(580,890)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(440,710)" name="Power">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(520,710)" name="Transistor">
+      <a name="type" val="n"/>
+      <a name="facing" val="south"/>
+      <a name="gate" val="br"/>
+    </comp>
+    <comp lib="0" loc="(480,870)" name="Constant"/>
+    <comp lib="6" loc="(692,150)" name="Text">
+      <a name="text" val="Вентиль И"/>
+      <a name="font" val="Times New Roman bolditalic 20"/>
+    </comp>
+    <comp lib="0" loc="(590,650)" name="Constant">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="6" loc="(141,264)" name="Text">
+      <a name="text" val="база - затвор"/>
+    </comp>
+    <comp lib="0" loc="(870,370)" name="Constant">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(150,740)" name="Transistor">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(200,200)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(740,460)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(800,410)" name="Transistor"/>
+    <comp lib="0" loc="(720,300)" name="Ground">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(170,630)" name="Ground">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="0" loc="(90,760)" name="Constant"/>
+    <comp lib="0" loc="(800,300)" name="Transistor">
+      <a name="type" val="n"/>
+      <a name="facing" val="south"/>
+      <a name="gate" val="br"/>
+    </comp>
+    <comp lib="0" loc="(130,400)" name="Constant"/>
+    <comp lib="6" loc="(455,61)" name="Text">
+      <a name="text" val="Построение логических вентили по КМОП логике"/>
+    </comp>
+    <comp lib="0" loc="(500,360)" name="Constant"/>
+    <comp lib="0" loc="(480,910)" name="Constant"/>
+    <comp lib="0" loc="(310,340)" name="Ground"/>
+    <comp lib="0" loc="(580,370)" name="Ground">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="0" loc="(560,300)" name="Transistor">
+      <a name="type" val="n"/>
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(150,810)" name="Transistor">
+      <a name="type" val="n"/>
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(940,300)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="6" loc="(266,233)" name="Text">
+      <a name="text" val="p-n-p"/>
+    </comp>
+    <comp lib="0" loc="(500,670)" name="Ground">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(930,610)" name="Transistor">
+      <a name="type" val="n"/>
+      <a name="gate" val="br"/>
+    </comp>
+    <comp lib="6" loc="(580,86)" name="Text">
+      <a name="text" val="Арзуманян Анна Кареновна"/>
+      <a name="font" val="SansSerif bolditalic 12"/>
+    </comp>
+    <comp lib="0" loc="(80,260)" name="Power"/>
+    <comp lib="0" loc="(590,780)" name="Constant">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(560,190)" name="Transistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1030,720)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(640,440)" name="Constant"/>
+    <comp lib="0" loc="(170,770)" name="Ground">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(720,460)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(463,40)" name="Text">
+      <a name="text" val="Лабораторная работа №1"/>
+      <a name="font" val="Times New Roman bolditalic 16"/>
+    </comp>
+    <comp lib="0" loc="(960,790)" name="Constant">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(150,700)" name="Transistor">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(520,750)" name="Transistor">
+      <a name="type" val="n"/>
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(200,870)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(560,340)" name="Transistor">
+      <a name="type" val="n"/>
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(560,600)" name="Transistor">
+      <a name="gate" val="br"/>
+    </comp>
+    <comp lib="6" loc="(140,235)" name="Text">
+      <a name="text" val="n-p-n"/>
+    </comp>
+    <comp lib="0" loc="(500,250)" name="Constant"/>
+    <comp lib="0" loc="(640,480)" name="Constant"/>
+    <comp lib="6" loc="(197,167)" name="Text">
+      <a name="text" val="Вентиль НЕ"/>
+      <a name="font" val="Times New Roman bolditalic 20"/>
+    </comp>
+    <comp lib="0" loc="(250,700)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(240,400)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(109,315)" name="Text">
+      <a name="text" val="коллектор"/>
+    </comp>
+    <comp lib="0" loc="(250,290)" name="Transistor">
+      <a name="type" val="n"/>
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(870,870)" name="Constant"/>
+    <comp lib="6" loc="(121,304)" name="Text">
+      <a name="text" val="сток"/>
+    </comp>
+    <comp lib="0" loc="(960,660)" name="Constant">
+      <a name="facing" val="west"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(890,720)" name="Transistor">
+      <a name="facing" val="south"/>
+      <a name="gate" val="br"/>
+    </comp>
+    <comp lib="6" loc="(464,458)" name="Text"/>
+    <comp lib="0" loc="(90,650)" name="Constant"/>
+    <comp lib="0" loc="(660,710)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(870,910)" name="Constant"/>
+    <comp lib="0" loc="(580,230)" name="Ground">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="6" loc="(166,317)" name="Text">
+      <a name="text" val="эмиттер"/>
+    </comp>
+    <comp lib="0" loc="(170,660)" name="Power">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="0" loc="(780,260)" name="Power">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="6" loc="(637,99)" name="Text">
+      <a name="text" val="УБВТ2403"/>
+      <a name="font" val="Times New Roman plain 12"/>
+    </comp>
+    <comp lib="0" loc="(200,350)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(110,890)" name="Constant"/>
+    <comp lib="6" loc="(248,303)" name="Text">
+      <a name="text" val="исток"/>
+    </comp>
+    <comp lib="6" loc="(173,560)" name="Text">
+      <a name="text" val="Вентиль  ИЛИ-НЕ"/>
+      <a name="font" val="Times New Roman bolditalic 20"/>
+      <a name="valign" val="center"/>
+    </comp>
+    <comp lib="0" loc="(560,410)" name="Transistor">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(580,260)" name="Power">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(950,890)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(570,890)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(161,305)" name="Text">
+      <a name="text" val="исток"/>
+    </comp>
+    <comp lib="6" loc="(545,563)" name="Text">
+      <a name="text" val="Вентиль И-НЕ"/>
+      <a name="font" val="Times New Roman bolditalic 20"/>
+    </comp>
+    <comp lib="0" loc="(160,290)" name="Transistor"/>
+    <comp lib="0" loc="(810,720)" name="Power">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(520,820)" name="Transistor"/>
+    <comp lib="0" loc="(210,870)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(660,300)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(890,830)" name="Transistor">
+      <a name="type" val="n"/>
+    </comp>
+    <comp lib="0" loc="(870,680)" name="Ground">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(110,850)" name="Constant"/>
+    <comp lib="6" loc="(916,565)" name="Text">
+      <a name="text" val="Вентиль ИЛИ"/>
+      <a name="font" val="Times New Roman bolditalic 20"/>
+    </comp>
+    <comp lib="0" loc="(150,590)" name="Transistor">
+      <a name="type" val="n"/>
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(960,890)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(800,340)" name="Transistor">
+      <a name="type" val="n"/>
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(890,760)" name="Transistor">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(210,400)" name="NOT Gate"/>
+    <comp lib="0" loc="(840,190)" name="Transistor">
+      <a name="gate" val="br"/>
+    </comp>
+    <comp lib="6" loc="(270,265)" name="Text">
+      <a name="text" val="база - затвор"/>
+    </comp>
+  </circuit>
+</project>
